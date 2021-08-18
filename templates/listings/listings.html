@@ -49,20 +49,20 @@
                   <div class="listing-heading text-center">
                     <h4 class="text-primary">{{ listing.title }}</h4>
                     <p>
-                      <i class="fas fa-map-marker text-secondary"></i> {{ listing.city }} {{ listing.state }}, {{ listing.zipcode }}</p>
+                      <i class="fas fa-map-marker text-secondary"></i> {{ listing.ton }} Ton {{ listing.btu }} BTU {{ listing.ac_type }}</p>
                   </div>
                   <hr>
                   <div class="row py-2 text-secondary">
                     <div class="col-6">
-                      <i class="fas fa-th-large"></i> Sqft: {{ listing.sqft }}</div>
+                      <i class="fas fa-th-large"></i> Coverage - {{ listing.sqft }} Sqft</div>
                     <div class="col-6">
-                      <i class="fas fa-car"></i> Garage: {{ listing.garage }}</div>
+                      <i class="fas fa-car"></i> Energy efficient - {{ listing.energy_efficient }}</div>
                   </div>
                   <div class="row py-2 text-secondary">
                     <div class="col-6">
-                      <i class="fas fa-bed"></i> Bedrooms: {{ listing.bedrooms }}</div>
+                      <i class="fas fa-bed"></i> Timer - {{ listing.timer}}</div>
                     <div class="col-6">
-                      <i class="fas fa-bath"></i> Bathrooms: {{ listing.bathrooms }}</div>
+                      <i class="fas fa-bath"></i> Remote control - {{ listing.remote_control }}</div>
                   </div>
                   <hr>
                   <div class="row py-2 text-secondary">

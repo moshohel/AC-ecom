@@ -11,7 +11,7 @@
         <div class="col-md-12">
           <h1 class="display-4">{{ listing.title }}</h1>
           <p class="lead">
-            <i class="fas fa-map-marker"></i> {{ listing.city }} {{ listing.state }}, {{ listing.zipcode }}</p>
+            <i class="fas fa-map-marker"></i> {{ listing.ton }} Ton {{ listing.btu }} BTU {{ listing.ac_type }}</p>
         </div>
       </div>
     </div>
@@ -99,39 +99,39 @@
                   <span class="float-right">${{ listing.price | intcomma }}</span>
                 </li>
                 <li class="list-group-item text-secondary">
-                  <i class="fas fa-bed"></i> Bedrooms:
-                  <span class="float-right">{{ listing.bedrooms }}</span>
-                </li>
-                <li class="list-group-item text-secondary">
-                  <i class="fas fa-bath"></i> Bathrooms:
-                  <span class="float-right">{{ listing.bathrooms }}</span>
-                </li>
-                <li class="list-group-item text-secondary">
-                  <i class="fas fa-car"></i> Garage:
-                  <span class="float-right">{{ listing.garage }}
+                  <i class="fas fa-car"></i> AC Type:
+                  <span class="float-right">{{ listing.ac_type }}
                   </span>
                 </li>
+                <li class="list-group-item text-secondary">
+                  <i class="fas fa-calendar"></i> Remote Control:
+                  <span class="float-right">{{ listing.remote_control }}</span>
+                </li>
+                <li class="list-group-item text-secondary">
+                  <i class="fas fa-bed"></i> Fan speed:
+                  <span class="float-right">{{ listing.fan_speed }}</span>
+                </li>
+
               </ul>
             </div>
             <div class="col-md-6">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item text-secondary">
-                  <i class="fas fa-th-large"></i> Square Feet:
+                  <i class="fas fa-th-large"></i> Coverage::
                   <span class="float-right">{{ listing.sqft }}</span>
                 </li>
                 <li class="list-group-item text-secondary">
-                  <i class="fas fa-square"></i> Lot Size:
-                  <span class="float-right">{{ listing.lot_size }} Acres
+                  <i class="fas fa-square"></i> Energy Efficient:
+                  <span class="float-right">{{ listing.energy_efficient }}
                   </span>
                 </li>
                 <li class="list-group-item text-secondary">
-                  <i class="fas fa-calendar"></i> Listing Date:
-                  <span class="float-right">{{ listing.list_date }}</span>
+                  <i class="fas fa-bath"></i> Temperature Adjustment:
+                  <span class="float-right">{{ listing.temperature_adjustment }}</span>
                 </li>
                 <li class="list-group-item text-secondary">
-                  <i class="fas fa-bed"></i> Realtor:
-                  <span class="float-right">{{ listing.realtor }}
-                  </span>
+                  <i class="fas fa-bath"></i> Cooling speed:
+                  <span class="float-right">{{ listing.cooling_speed }}</span>
                 </li>
 
 
