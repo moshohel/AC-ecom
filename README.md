@@ -3,6 +3,20 @@
 I developed an end to end **web Application using Django MVT** with multiple
 modules
 
+### ScreenShots:
+
+-   Home Page:
+
+![Alt text](https://github.com/moshohel/AC-ecom/blob/master/btre/static/img/sss1.png 'Home Page')
+
+-   List :
+
+![Alt text](https://github.com/moshohel/AC-ecom/blob/master/btre/static/img/sss2.png)
+
+-   About :
+
+![Alt text](https://github.com/moshohel/AC-ecom/blob/master/btre/static/img/sss3.png)
+
 ## Project is not maintained anymore
 
 ### Functionalities:
@@ -57,17 +71,3 @@ modules
 -   **Technology** : Bootstrap, python, Django MVT, JavaScripts.
 -   **Application Servicer**: .
 -   **Database** : MySQL
-
-### ScreenShots:
-
--   Home Page:
-
-![Alt text](https://github.com/moshohel/AC-ecom/blob/master/btre/static/img/sss1.png 'Home Page')
-
--   List :
-
-![Alt text](https://github.com/moshohel/AC-ecom/blob/master/btre/static/img/sss2.png)
-
--   About :
-
-![Alt text](https://github.com/moshohel/AC-ecom/blob/master/btre/static/img/sss3.png)
